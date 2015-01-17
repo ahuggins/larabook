@@ -1,0 +1,22 @@
+@import 'modules/status';
+@import 'modules/nav';
+
+body {
+  padding-top: 80px;
+  background-color: rgb(240, 240, 240);
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container h1:first-of-type {
+  margin-top: 0;
+}
+
+.nav-gravatar{
+  float    : left;
+  position : relative;
+  top      : -6px;
+  left     : -10px;
+  border   : 1px solid rgb(238, 238, 238);
+}
