@@ -12,7 +12,7 @@ class CreateStatusCommentsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('status_comments', function(Blueprint $table)
+		Schema::create('comments', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->integer('status_id')->index();
@@ -30,7 +30,7 @@ class CreateStatusCommentsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('status_comments');
+		Schema::drop('comments');
 	}
 
 }
